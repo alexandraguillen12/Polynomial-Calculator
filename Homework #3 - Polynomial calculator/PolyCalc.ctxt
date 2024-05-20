@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PolyCalc
+comment0.text=\n\ A\ class\ that\ represents\ a\ polynomial\ calculator.\ It\ adds,\ subtract,\ multiplies,\ and\ divides\ polynomials.\n\n\ @author\ Alexandra\ Guillen\n\ @version\ 1.0\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Executes\ when\ the\ program\ is\ executed\ through\ the\ command\ line\ with\ java\ PolyCalc.\ I.e.,\ the\ \n\ program\u2019s\ main\ method\ is\ a\ part\ of\ a\ class\ called\ PolyCalc.\n\ \n\ Prints\ a\ welcome\ message.\n\ \n\ Asks\ the\ user\ for\ the\ first\ polynomial.\ Polynomials\ will\ be\ specified\ using\ space\ separated\ pairs\ of\ \n\ coefficient\ and\ exponents.\ For\ example,\ 2.5x^2\ -\ 1\ should\ be\ input\ as\ 2.5\ 2\ -1\ 0.\ If\ the\ user\ doesn\u2019t\ \n\ provide\ a\ valid\ polynomial,\ they\ should\ be\ asked\ again,\ until\ they\ do.\n\ \n\ Asks\ the\ user\ for\ the\ operation.\ The\ possible\ choices\ are\:\ +,\ -,\ *\ or\ /.\ If\ the\ user\ doesn\u2019t\ provide\ \n\ a\ valid\ operation,\ they\ should\ be\ asked\ again,\ until\ they\ do.\n\ \n\ Asks\ the\ user\ for\ the\ second\ polynomial.\n\ \n\ Executes\ the\ selected\ operation\ on\ the\ two\ polynomials\ and\ display\ the\ result.\ Print\ "indivisible"\ if\ the\ \n\ operation\ is\ division\ and\ the\ two\ polynomials\ are\ not\ divisible.\n\ \n\ The\ user\ can\ enter\ quit\ at\ any\ time\ to\ exit\ the\ program.\n
+comment2.params=p
+comment2.target=Poly\ validPoly(java.lang.String)
+comment2.text=\n\ Checks\ if\ the\ input\ polynomial\ is\ valid,\ asks\ again\ if\ not.\n\ @return\ a\ valid\ polynomial\n
+numComments=3
